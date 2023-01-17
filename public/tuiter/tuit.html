@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuit</title>
+</head>
+<body>
+    <a href="navigation.html">Back</a>
+    <h1>Tuiter</h1>
+    <h2>Tuit</h2>
+    <img src="images/bongo_cat.png" alt="Kevin Liu" height="48px" width="48px">
+    <form id="tuit-field">
+        <textarea placeholder="What's happening?" id="tuit-text-field"></textarea> <br />
+        <select name="dropdown" id="tuit-privacy">
+            <option selected value="EVERYONE">
+                Everyone can reply
+            </option>
+            <option value="FOLLOWED">
+                People you follow
+            </option>
+            <option value="MENTIONED">
+                Only people you mention
+            </option>
+        </select> <br />
+        <hr>
+        <input type="file" id="tuit-file">
+        <button type="submit" id="tuit-post">Tuit</button>
+        <hr>
+    </form>
+</body>
+</html>
