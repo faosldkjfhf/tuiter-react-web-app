@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+    border-style: solid solid none solid;
+    padding-top: 8px;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-search {
+    margin-left: 16px;
+    display: flex;
+}
+
+.wd-search input {
+    position: relative;
+    border-radius: 50px;
+    color: white;
+    padding-left: 40px;
+    background-color: #212121;
+    width: 90%;
+    height: 30px;
+    border: none;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-search .wd-settings {
+    float: right;
+    height: 30px;
+    padding-left: 2%;
+    margin-right: 12px;
+    margin-top: 7.5px;
+}
+
+.wd-categories {
+    display: flex;
+    border-bottom-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-categories a {
+    margin-left: 16px;
+    float: left;
+    color: rgb(110, 118, 125);
+    padding: 16px;
+    font: 15px Arial, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.wd-categories .wd-selected {
+    color: rgb(29, 161, 242);
+    border-width: 5px;
+    border-bottom-color: rgb(29, 161, 242);
+    border-style: none none solid none;
+
+}
+
+.wd-clear {
+    clear: both;
+}
+
+.wd-trending {
+    padding-bottom: 10px;
+    border-bottom-color: rgb(47, 51, 54);
+    border-bottom-style: solid;
+}
+
+.wd-trending .wd-topic {
+    margin-left: 16px;
+    color: rgb(110, 118, 125);
+    font: 13px Arial, sans-serif;
+}
+
+.wd-topic-name {
+    margin-left: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font: 15px Arial, sans-serif;
+}
+
+.wd-title {
+    margin-top: 10px;
+}
+
+.wd-article {
+    display: flex;
+    border-bottom-color: rgb(47, 51, 54);
+    border-bottom-style: solid;
+}
+
+.wd-article .wd-topic-name {
+    float: top left;
+    /* position: relative; */
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font: 15px Arial, sans-serif;
+}
+
+.wd-article .wd-company {
+    float: bottom left;
+    margin-left: 16px;
+    color: white;
+    font: 13px Arial, sans-serif;
+}
+
+.wd-article .wd-time {
+    color: rgb(110, 118, 125);
+}
+
+.wd-article .wd-article-image {
+    float: right;
+    height: 100px;
+    width: 100px;
+    margin-right: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+}
