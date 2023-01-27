@@ -1,13 +1,16 @@
 body {
     background-color: black;
-    border-style: solid solid none solid;
+    border-style: solid solid solid solid;
     padding-top: 8px;
     border-color: rgb(47, 51, 54);
 }
 
-.wd-search {
-    margin-left: 16px;
+.wd-flex {
     display: flex;
+}
+
+.wd-margin {
+    margin-left: 16px;
 }
 
 .wd-search input {
@@ -31,13 +34,11 @@ body {
 }
 
 .wd-categories {
-    display: flex;
     border-bottom-style: solid;
     border-color: rgb(47, 51, 54);
 }
 
 .wd-categories a {
-    margin-left: 16px;
     float: left;
     color: rgb(110, 118, 125);
     padding: 16px;
@@ -51,7 +52,6 @@ body {
     border-width: 5px;
     border-bottom-color: rgb(29, 161, 242);
     border-style: none none solid none;
-
 }
 
 .wd-clear {
@@ -64,14 +64,12 @@ body {
     border-bottom-style: solid;
 }
 
-.wd-trending .wd-topic {
-    margin-left: 16px;
+.wd-topic {
     color: rgb(110, 118, 125);
     font: 13px Arial, sans-serif;
 }
 
 .wd-topic-name {
-    margin-left: 16px;
     margin-top: 5px;
     margin-bottom: 5px;
     color: white;
@@ -83,14 +81,11 @@ body {
 }
 
 .wd-article {
-    display: flex;
     border-bottom-color: rgb(47, 51, 54);
     border-bottom-style: solid;
 }
 
 .wd-article .wd-topic-name {
-    float: top left;
-    /* position: relative; */
     margin-left: 0px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -99,7 +94,6 @@ body {
 }
 
 .wd-article .wd-company {
-    float: bottom left;
     margin-left: 16px;
     color: white;
     font: 13px Arial, sans-serif;
@@ -110,12 +104,15 @@ body {
 }
 
 .wd-article .wd-article-image {
-    float: right;
     height: 100px;
     width: 100px;
     margin-right: 16px;
     margin-top: 10px;
     margin-bottom: 10px;
+
+    /* Makes this go all the way to the right */
+    margin-left: auto;
+
     border: none;
     border-radius: 10px;
 }

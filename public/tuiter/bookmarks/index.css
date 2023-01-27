@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    font: Arial, sans-serif;
+}
+
+.wd-margin-left {
+    margin-left: 16px;
+}
+
+.wd-16-left-12-top {
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.wd-bookmarks-bar {
+    padding-bottom: 12px;
+    border-bottom-color: rgb(47, 51, 54);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.wd-bookmarks-bar .wd-title {
+    color: white;
+    font: 20px Arial, sans-serif;
+}
+
+.wd-bookmarks-bar .wd-handle {
+    color: rgb(110, 118, 125);
+    font: 13px Arial, sans-serif;
+}
+
+.wd-feed {
+    color: white;
+}
+
+.wd-feed .wd-avatar {
+    border-radius: 24px;
+    height: 48px;
+    width: 48px;
+}
