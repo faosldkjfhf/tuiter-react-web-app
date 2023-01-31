@@ -14,23 +14,33 @@ body {
 }
 
 .wd-search input {
-    position: relative;
     border-radius: 50px;
     color: white;
     padding-left: 40px;
     background-color: #212121;
-    width: 90%;
+    min-width: 80%;
+    max-width: 90%;
     height: 30px;
     border: none;
     border-color: rgb(47, 51, 54);
 }
 
+.wd-search .wd-search-icon {
+    z-index: 10;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 14px;
+    color: rgb(110, 118, 125);
+}
+
 .wd-search .wd-settings {
     float: right;
     height: 30px;
-    padding-left: 2%;
+    /* padding-left: 2%; */
+    color:rgb(29, 161, 242);
     margin-right: 12px;
     margin-top: 7.5px;
+    z-index: 10;
 }
 
 .wd-categories {
@@ -45,13 +55,14 @@ body {
     font: 15px Arial, sans-serif;
     text-decoration: none;
     text-align: center;
+    font-weight: bold;
 }
 
 .wd-categories .wd-selected {
     color: rgb(29, 161, 242);
     border-width: 5px;
     border-bottom-color: rgb(29, 161, 242);
-    border-style: none none solid none;
+    border-bottom-style: solid;
 }
 
 .wd-clear {
