@@ -5,100 +5,106 @@
     <meta charset="UTF-8">
     <link href="index.css" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v6.2.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/08de86a2c1.css" crossorigin="anonymous">
+    <link href="/public/tuiter/styles.css" rel="stylesheet">
     <title>Explore</title>
 </head>
 
 <body>
-    <div class="wd-search wd-margin">
-        <i class="wd-search-icon fas fa-search"></i>
-        <input placeholder="Search Tuiter">
-        <a class="wd-settings" href="explore-settings.html">
-            <i class="fas fa-gear"></i>
-        </a>
-    </div>
+    <a class="wd-back-button" href="/public/tuiter/navigation.html">Back</a>
+    <div class="wd-explore">
+        <div class="wd-search wd-margin">
+            <i class="wd-search-icon fas fa-search"></i>
+            <input placeholder="Search Tuiter">
+            <a class="wd-settings" href="explore-settings.html">
+                <i class="fas fa-gear"></i>
+            </a>
+        </div>
 
-    <div class="wd-categories wd-flex">
-        <a class="wd-selected wd-margin" href="">For you</a>
-        <a class="wd-margin" href="#">Trending</a>
-        <a class="wd-margin" href="#">COVID-19</a>
-        <a class="wd-margin" href="#">News</a>
-        <a class="wd-margin" href="#">Sports</a>
-        <a class="wd-margin" href="#">Entertainment</a>
-    </div>
+        <div class="wd-clear wd-categories">
+            <a class="wd-selected wd-margin" href="">For you</a>
+            <a class="wd-margin" href="#">Trending</a>
+            <a class="wd-margin" href="#">COVID-19</a>
+            <a class="wd-margin" href="#">News</a>
+            <a class="wd-margin" href="#">Sports</a>
+            <a class="wd-margin" href="#">Entertainment</a>
+        </div>
 
-    <!--Type C - trending topic-->
-    <div class="wd-trending">
-        <div class="wd-title wd-topic wd-margin">
-            Trending in Science
-        </div>
-        <div class="wd-topic-name wd-margin">
-            <b>Starship</b>
-        </div>
-        <div class="wd-topic wd-margin">
-            55.5K Tuits
-        </div>
-    </div>
 
-    <!--Type C - trending topic-->
-    <div class="wd-trending">
-        <div class="wd-title wd-topic wd-margin">
-            Sports • Trending
-        </div>
-        <div class="wd-topic-name wd-margin">
-            <b>Joe Rogan</b>
-        </div>
-        <div class="wd-topic wd-margin">
-            5,218 Tuits
-        </div>
-    </div>
-
-    <!--Type D - article with publisher-->
-    <div class="wd-article wd-flex">
-        <div class="wd-title wd-company">
-            The New York Times
-            <span class="wd-time">• Yesterday</span>
+        <!--Type C - trending topic-->
+        <div class="wd-clear wd-trending">
+            <div class="wd-title wd-topic wd-margin">
+                Trending in Science
+            </div>
             <div class="wd-topic-name wd-margin">
-                <b>CNN's Cuomo conundrum: A star anchor with a brother in trouble</b>
+                <b>Starship</b>
+            </div>
+            <div class="wd-topic wd-margin">
+                55.5K Tuits
             </div>
         </div>
-        <img class="wd-article-image" src="../images/bongo_cat.png">
-    </div>
 
-    <!--Type E - article with top-->
-    <div class="wd-article wd-flex">
-        <div class="wd-title wd-topic wd-margin">
-            COVID-19 • Trending
+        <!--Type C - trending topic-->
+        <div class="wd-trending">
+            <div class="wd-title wd-topic wd-margin">
+                Sports • Trending
+            </div>
             <div class="wd-topic-name wd-margin">
-                <b>COVID-19: News and Updates for Massachusetts</b>
+                <b>Joe Rogan</b>
+            </div>
+            <div class="wd-topic wd-margin">
+                5,218 Tuits
             </div>
         </div>
-        <img class="wd-article-image" src="../images/wolf.png">
-    </div>
 
-    <!--Type D - article with publisher-->
-    <div class="wd-article wd-flex">
-        <div class="wd-title wd-company">
-            Bloomberg Opinion
-            <span class="wd-time">• Yesterday</span>
-            <div class="wd-topic-name wd-margin">
-                <b>Thinking about getting a booster? Read this first.</b>
+        <!--Type D - article with publisher-->
+        <div class="wd-article wd-flex">
+            <div class="wd-title wd-company">
+                The New York Times
+                <span class="fas fa-regular fa-circle-check"></span>
+                <span class="wd-time">• Yesterday</span>
+                <div class="wd-topic-name wd-margin">
+                    <b>CNN's Cuomo conundrum: A star anchor with a brother in trouble</b>
+                </div>
             </div>
+            <img class="wd-article-image" src="../images/bongo_cat.png">
         </div>
-        <img class="wd-article-image" src="../images/lego_bat.jpeg">
-    </div>
 
-    <!--Type E - article with top-->
-    <div class="wd-article wd-flex">
-        <div class="wd-title wd-topic wd-margin">
-            Minecraft • Trending
-            <div class="wd-topic-name wd-margin">
-                <b>Minecraft: News and Updates</b>
+        <!--Type E - article with top-->
+        <div class="wd-article wd-flex">
+            <div class="wd-title wd-topic wd-margin">
+                COVID-19 • Trending
+                <div class="wd-topic-name wd-margin">
+                    <b>COVID-19: News and Updates for Massachusetts</b>
+                </div>
             </div>
+            <img class="wd-article-image" src="../images/wolf.png">
         </div>
-        <img class="wd-article-image" src="../images/minecraft.png">
+
+        <!--Type D - article with publisher-->
+        <div class="wd-article wd-flex">
+            <div class="wd-title wd-company">
+                Bloomberg Opinion
+                <span class="fas fa-regular fa-circle-check"></span>
+                <span class="wd-time">• Yesterday</span>
+                <div class="wd-topic-name wd-margin">
+                    <b>Thinking about getting a booster? Read this first.</b>
+                </div>
+            </div>
+            <img class="wd-article-image" src="../images/lego_bat.jpeg">
+        </div>
+
+        <!--Type E - article with top-->
+        <div class="wd-article wd-flex">
+            <div class="wd-title wd-topic wd-margin">
+                Minecraft • Trending
+                <div class="wd-topic-name wd-margin">
+                    <b>Minecraft: News and Updates</b>
+                </div>
+            </div>
+            <img class="wd-article-image" src="../images/minecraft.png">
+        </div>
     </div>
-
-
 
 </body>
 

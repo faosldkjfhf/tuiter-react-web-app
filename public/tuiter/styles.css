@@ -1,0 +1,25 @@
+.wd-back-button {
+    margin-left: 16px;
+    text-decoration: none;
+    font: 15px Arial, sans-serif;
+}
+
+.wd-red {
+    color: red;
+}
+
+.wd-light-gray {
+    color:rgb(110, 118, 125);
+}
+
+.wd-margin {
+    margin-left: 16px;
+}
+
+.wd-clear {
+    clear: both;
+}
+
+.wd-flex {
+    display: flex;
+}
