@@ -14,6 +14,7 @@ body {
     color: white;
     padding-left: 40px;
     background-color: #212121;
+    padding-right: 10px;
     min-width: 80%;
     max-width: 90%;
     height: 30px;
@@ -37,6 +38,9 @@ body {
     margin-right: 12px;
     margin-top: 7.5px;
     z-index: 10;
+    color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(108, 217, 254);
 }
 
 .wd-categories {
