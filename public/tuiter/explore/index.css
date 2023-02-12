@@ -1,126 +1,158 @@
 body {
-    background-color: black;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins';
 }
 
-.wd-explore {
-    padding-top: 12px;
-    border-style: solid solid solid solid;
-    border-color: rgb(47, 51, 54);
-}
-
-.wd-search input {
-    border-radius: 50px;
-    color: white;
-    padding-left: 40px;
-    background-color: #212121;
-    padding-right: 10px;
-    min-width: 80%;
-    max-width: 90%;
-    height: 30px;
-    border: none;
-    border-color: rgb(47, 51, 54);
-}
-
-.wd-search .wd-search-icon {
-    z-index: 10;
+.wd-magnifying-glass {
     position: absolute;
-    margin-top: 9px;
-    margin-left: 14px;
+    margin-left: 20px;
+    margin-top: 10px;
     color: rgb(110, 118, 125);
 }
 
-.wd-search .wd-settings {
-    float: right;
+.wd-centered {
     position: relative;
-    height: 30px;
-    color:rgb(29, 161, 242);
-    margin-right: 12px;
-    margin-top: 7.5px;
+    margin-top: 11px;
+}
+
+.wd-search-bar {
+    padding-left: 60px;
+    border-radius: 24px;
+    font-size: 16px;
+    color:rgb(110, 118, 125);
+    background-color:rgb(245, 248, 250);
+    border-style: none;
+}
+
+.wd-border-radius-24 {
+    border-radius: 24px;
+}
+
+.wd-z-index {
+    z-index: 100;
+    position: absolute;
+}
+
+.wd-text-overlay {
+    position: absolute;
     z-index: 10;
-    color: transparent;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: rgb(108, 217, 254);
+    bottom: 0;
+    width: 100%;
+    left: 10px;
 }
 
-.wd-categories {
-    border-bottom-style: solid;
-    border-color: rgb(47, 51, 54);
-    overflow: auto;
+.wd-position-rel {
+    position: relative;
+    max-height: 400px;
+    width: 100%;
 }
 
-.wd-categories a {
-    float: left;
-    color: rgb(110, 118, 125);
-    padding: 16px;
-    font-size: 15px;
-    text-decoration: none;
-    text-align: center;
+.wd-left .list-group-item {
+    border-style: none;
+}
+
+.wd-left .active {
+    background-color: white;
+    color: black;
     font-weight: bold;
 }
 
-.wd-categories .wd-selected {
+.fa-twitter {
     color: rgb(29, 161, 242);
-    border-width: 5px;
-    border-bottom-color: rgb(29, 161, 242);
-    border-bottom-style: solid;
 }
 
-.wd-trending {
-    padding-bottom: 10px;
-    border-bottom-color: rgb(47, 51, 54);
-    border-bottom-style: solid;
+.btn#tweet-button {
+    background-color: rgb(29, 161, 242);
+    border-color:rgb(29, 161, 242);
 }
 
-.wd-topic {
-    color: rgb(110, 118, 125);
-    font: 13px Arial, sans-serif;
+.fa-circle-check {
+    color:rgb(29, 161, 242);
 }
 
-.wd-topic-name {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    color: white;
-    font-size: 15px;
+.fa-gear {
+    color:transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
 }
 
-.wd-title {
-    margin-top: 10px;
+.btn#follow-button {
+    background-color: black;
+    border-color: black;
+    font-weight: bold;
 }
 
-.wd-article {
-    border-bottom-color: rgb(47, 51, 54);
-    border-bottom-style: solid;
+.wd-right .list-group-item {
+    border-style: none;
+    background-color: rgb(245, 248, 250);
 }
 
-.wd-article .wd-topic-name {
-    margin-left: 0px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    color: white;
-    font-size: 15px;
+.wd-right .wd-rounded-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
-.wd-article .wd-company {
-    margin-left: 16px;
-    color: white;
-    font-size: 13px;
+.fa-home {
+    color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
 }
 
-.wd-article .wd-time {
-    color: rgb(110, 118, 125);
+.wd-right .wd-rounded-bottom {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
-.wd-article .wd-article-image {
-    height: 100px;
-    width: 100px;
-    margin-right: 16px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-    /* Makes this go all the way to the right */
-    margin-left: auto;
-
+.wd-middle .list-group-item {
     border: none;
-    border-radius: 10px;
+    border-color:rgb(245, 248, 250);
+}
+
+.wd-middle .wd-straight-top {
+    border-top-left-radius: 0px;
+    border-top: 1px;
+    border-top-style: solid;
+    border-top-right-radius: 0px;
+    border-color:rgb(245, 248, 250);
+}
+
+.wd-middle .wd-straight-bottom {
+    border-bottom: 1px;
+    border-color:rgb(245, 248, 250);
+    border-bottom-style: solid;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.wd-middle .nav-tabs {
+    border-bottom: none;
+}
+
+.wd-middle .nav-link {
+    color:rgb(110, 118, 125);
+}
+
+.wd-middle .nav-item .active {
+    color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* border-bottom: solid; */
+    /* border-bottom-width: 3px;
+    border-bottom-color:rgb(29, 161, 242); */
+}
+
+.wd-blue-border {
+    border-width: 2px;
+    border: solid;
+    border-radius:12px;
+    border-color:rgb(29, 161, 242);
+}
+
+.wd-explore {
+    border-left-style: solid;
+    border-right-style: solid;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-color:rgb(245, 248, 250);
+    border-width: 1px;
 }
