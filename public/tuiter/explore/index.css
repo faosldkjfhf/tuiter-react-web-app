@@ -1,6 +1,6 @@
-body {
+/* body {
     font-family: 'Poppins';
-}
+} */
 
 .wd-magnifying-glass {
     position: absolute;
@@ -9,10 +9,10 @@ body {
     color: rgb(110, 118, 125);
 }
 
-.wd-centered {
+/* .wd-centered {
     position: relative;
     margin-top: 11px;
-}
+} */
 
 .wd-search-bar {
     padding-left: 60px;
@@ -27,10 +27,10 @@ body {
     border-radius: 24px;
 }
 
-.wd-z-index {
+/* .wd-z-index {
     z-index: 100;
     position: absolute;
-}
+} */
 
 .wd-text-overlay {
     position: absolute;
@@ -46,68 +46,68 @@ body {
     width: 100%;
 }
 
-.wd-left .list-group-item {
+/* .wd-left .list-group-item {
     border-style: none;
-}
+} */
 
-.wd-left .active {
+/* .wd-left .active {
     background-color: white;
     color: black;
     font-weight: bold;
-}
+} */
 
-.fa-twitter {
+/* .fa-twitter {
     color: rgb(29, 161, 242);
-}
+} */
 
-.btn#tweet-button {
+/* .btn#tweet-button {
     background-color: rgb(29, 161, 242);
     border-color:rgb(29, 161, 242);
-}
+} */
 
-.fa-circle-check {
+/* .fa-circle-check {
     color:rgb(29, 161, 242);
-}
+} */
 
-.fa-gear {
+/* .fa-gear {
     color:transparent;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
-}
+} */
 
-.btn#follow-button {
+/* .btn#follow-button {
     background-color: black;
     border-color: black;
     font-weight: bold;
-}
+} */
 
-.wd-right .list-group-item {
+/* .wd-right .list-group-item {
     border-style: none;
     background-color: rgb(245, 248, 250);
-}
+} */
 
-.wd-right .wd-rounded-top {
+/* .wd-right .wd-rounded-top {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-}
+} */
 
-.fa-home {
+/* .fa-home {
     color: transparent;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
-}
+} */
 
-.wd-right .wd-rounded-bottom {
+/* .wd-right .wd-rounded-bottom {
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-}
+} */
 
-.wd-middle .list-group-item {
+/* .wd-middle .list-group-item {
     border: none;
     border-color:rgb(245, 248, 250);
-}
+} */
 
-.wd-middle .wd-straight-top {
+/* .wd-middle .wd-straight-top {
     border-top-left-radius: 0px;
     border-top: 1px;
     border-top-style: solid;
@@ -136,9 +136,6 @@ body {
     border-top: none;
     border-left: none;
     border-right: none;
-    /* border-bottom: solid; */
-    /* border-bottom-width: 3px;
-    border-bottom-color:rgb(29, 161, 242); */
 }
 
 .wd-blue-border {
@@ -155,4 +152,4 @@ body {
     padding-right: 0px;
     border-color:rgb(245, 248, 250);
     border-width: 1px;
-}
+} */
