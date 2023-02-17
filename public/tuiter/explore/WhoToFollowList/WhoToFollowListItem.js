@@ -1,4 +1,4 @@
-const WhoToFollowListItem = (who) => {
+function WhoToFollowListItem(who) {
     return (`
         <li class="list-group-item">
             <div class="row">

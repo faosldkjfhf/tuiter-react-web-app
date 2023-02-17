@@ -1,7 +1,7 @@
 import NavigationTab from "./NavigationTab.js";
 import nav from "./nav.js";
 
-const NavigationTabs = () => {
+function NavigationTabs() {
     return (`
         <li class="nav-item">
             <a class="nav-link active" href="for-you.html">For you</a>

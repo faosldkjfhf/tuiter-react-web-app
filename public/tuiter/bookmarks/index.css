@@ -34,8 +34,6 @@ body {
     color: white;
     display: flex;
     max-width: 506px;
-    /* border-bottom: solid;
-    border-bottom-color:rgb(47, 51, 54); */
 }
 
 .wd-feed .wd-avatar {
@@ -44,7 +42,6 @@ body {
     height: 48px;
     width: 48px;
     margin-bottom: 12px;
-    /* margin-right: 16px; */
 }
 
 .wd-feed .wd-name {

@@ -1,6 +1,6 @@
 import PostSummaryList from "../PostSummaryList";
 
-const ExploreComponent = () => {
+function ExploreComponent() {
     return(`
             <div class="row">
                        <!-- search field and cog -->

@@ -1,4 +1,4 @@
-const PostSummaryItem = post => {
+function PostSummaryItem(post) {
     return (`                            
         <li class="list-group-item">
             <div class="row">
