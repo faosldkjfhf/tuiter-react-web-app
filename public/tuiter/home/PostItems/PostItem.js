@@ -1,5 +1,3 @@
-import PostLink from "./link.js"
-
 export default function PostItem(post) {
     var fullPost = (`           
         <div class="mt-2 wd-border-bottom row" style="color: white">
@@ -51,14 +49,14 @@ export default function PostItem(post) {
         </div>
     `)
 
-    if (post.link === '') {
-        var text = $(fullPost).find("div[class=post-text]");
-        console.log(text);
-        $(text).hide();
-        var image = $('.wd-image');
-        $(fullPost).find(image).css("border-bottom-right-radius", "20px");
-        $(fullPost).find('.wd-image').css("border-bottom-left-radius", "20px");
-    }
+    // if (post.link === '') {
+    //     var text = $(fullPost).find("div[class=post-text]");
+    //     console.log(text);
+    //     $(text).hide();
+    //     var image = $('.wd-image');
+    //     $(fullPost).find(image).css("border-bottom-right-radius", "20px");
+    //     $(fullPost).find('.wd-image').css("border-bottom-left-radius", "20px");
+    // }
 
     return fullPost;
 };
