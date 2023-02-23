@@ -20,7 +20,7 @@ const HomeComponentItem = (
         <li key={post.id} className="list-group-item">
             <div className="row">
                 <div className="col-2 col-md-1">
-                    <img className="rounded-circle" height={40} width={40} src={`/tuiter/images/${post.avatarIcon}`} />
+                    <img className="rounded-circle" height={40} width={40} src={`/src/tuiter/images/${post.avatarIcon}`} />
                 </div>
                 <div className="col-10 col-md-11">
                     <span className="fw-bold">{post.userName} </span>
@@ -32,7 +32,7 @@ const HomeComponentItem = (
                         <span> - {post.link}</span>
                     </div>
                     <div>
-                        <img className="rounded wd-image mt-3" src={`/tuiter/images/${post.postImage}`} />
+                        <img className="rounded wd-image mt-3" src={`/src/tuiter/images/${post.postImage}`} />
                     </div>
                     <div className="mt-2 mb-2 row">
                         <div className="col-3">
