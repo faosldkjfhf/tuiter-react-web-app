@@ -15,7 +15,7 @@ const WhoToFollowListItem = (
             <li className="list-group-item">
                 <div className="row">
                     <div className="col-2">
-                        <img className="rounded-circle" height={48} src={`/tuiter/images/${who.avatarIcon}`} />
+                        <img className="rounded-circle" height={48} src={`/images/${who.avatarIcon}`} />
                     </div>
                     <div className="ms-lg-2 ms-xl-0 col-lg-7 col-xl-8">
                         <div>

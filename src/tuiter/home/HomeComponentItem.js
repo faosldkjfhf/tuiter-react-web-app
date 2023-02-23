@@ -32,7 +32,7 @@ const HomeComponentItem = (
                         <span> - {post.link}</span>
                     </div>
                     <div>
-                        <img className="rounded wd-image mt-3" src={`/src/tuiter/images/${post.postImage}`} />
+                        <img className="rounded wd-image mt-3" src={`/images/${post.postImage}`} />
                     </div>
                     <div className="mt-2 mb-2 row">
                         <div className="col-3">
