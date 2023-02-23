@@ -1,0 +1,27 @@
+.wd-rounded-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-style: solid solid none solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-rounded-bottom {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-image {
+    height: auto;
+    width: 100%;
+}
+
+.wd-no-link-decor {
+    text-decoration: none;
+}
+
+.wd-border-bottom {
+    border-bottom: solid;
+    border-bottom-color:rgb(47, 51, 54);
+}

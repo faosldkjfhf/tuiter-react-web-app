@@ -1,0 +1,28 @@
+[
+    {
+        "avatarIcon": "bongo_cat.png",
+        "userName": "SpaceX",
+        "handle": "SpaceX",
+        "time": "23h",
+        "link": "spacex.com/updates",
+        "postImage": "minecraft.png",
+        "postText": "Dennis and Akiko Tito are the first two crewmembers on Starship's second commerical spaceflight around the Moon",
+        "comments": "595",
+        "retweets": "1,168",
+        "likes": "11.1K",
+        "id": "123"
+    },
+    {
+        "avatarIcon": "bongo_cat.png",
+        "userName": "SpaceX",
+        "handle": "SpaceX",
+        "time": "23h",
+        "link": "spacex.com/updates",
+        "postImage": "minecraft.png",
+        "postText": "Dennis and Akiko Tito are the first two crewmembers on Starship's second commerical spaceflight around the Moon",
+        "comments": "595",
+        "retweets": "1,168",
+        "likes": "11.1K",
+        "id": "123" 
+    }
+]

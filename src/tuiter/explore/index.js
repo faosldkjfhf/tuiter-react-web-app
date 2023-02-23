@@ -1,7 +1,6 @@
 import React from "react";
 import PostSummaryList from "../post-summary-list";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass, faGear } from "@fortawesome/free-solid-svg-icons";
+import '@fortawesome/fontawesome-free/css/all.min.css'
 import "./index.css";
 const ExploreComponent = () => {
     return (
@@ -10,10 +9,10 @@ const ExploreComponent = () => {
                 <div className="col-11 position-relative">
                     <input placeholder="Search Tuiter"
                         className="form-control rounded-pill ps-5" />
-                    <FontAwesomeIcon icon={faMagnifyingGlass} className="position-absolute wd-nudge-up"/>
+                    <span className="fa fa-magnifying-glass position-absolute wd-nudge-up"></span>
                 </div>
                 <div className="col-1">
-                    <FontAwesomeIcon icon={faGear} className="text-primary float-end fs-2 "/>
+                    <span className="fa fa-gear text-primary float-end fs-2 "></span>
                 </div>
             </div>
             <ul className="mt-2 nav nav-pills mb-2">
@@ -28,7 +27,7 @@ const ExploreComponent = () => {
                 </li>
             </ul>
             <div className="position-relative mb-2">
-                <img src="images/minecraft.png" className="w-100" />
+                <img src="/tuiter/images/minecraft.png" className="w-100" />
                 <h1 className="position-absolute wd-nudge-up text-white">
                     SpaceX Starship</h1>
             </div>
