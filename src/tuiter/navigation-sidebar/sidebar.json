@@ -2,55 +2,55 @@
     {
         "title": "Tuiter",
         "href": "#",
-        "id": "123",
+        "_id": "123",
         "icon": "fab fa-twitter"
     },
     {
         "title": "Home",
         "href": "../home/",
-        "id": "234",
+        "_id": "234",
         "icon": "fa fa-home"
     },
     {
         "title": "Explore",
         "href": "../explore/",
-        "id": "345",
+        "_id": "345",
         "icon": "fa fa-hashtag"
     },
     {
         "title": "Notifications",
         "href": "../notifications.html",
-        "id": "456",
+        "_id": "456",
         "icon": "fa-regular fa-bell"
     },
     {
         "title": "Messages",
         "href": "../messages.html",
-        "id": "567",
+        "_id": "567",
         "icon": "fa-regular fa-envelope"
     },
     {
         "title": "Bookmarks",
         "href": "../bookmarks/index.html",
-        "id": "678",
+        "_id": "678",
         "icon": "fa-regular fa-bookmark"
     },
     {
         "title": "Lists",
         "href": "../lists.html",
-        "id": "789",
+        "_id": "789",
         "icon": "fa fa-list"
     },
     {
         "title": "Profile",
         "href": "../profile.html",
-        "id": "890",
+        "_id": "890",
         "icon": "fa-regular fa-user"
     },
     {
         "title": "More",
         "href": "#",
-        "id": "901",
+        "_id": "901",
         "icon": "fa-solid fa-ellipsis"
     }
 ]

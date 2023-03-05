@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 
 function IsActive(title, active) {
-    console.log(active);
-    console.log(title);
     return active === title ? 'active' : ''
 }
 
@@ -11,14 +9,14 @@ const NavigationSidebarItem = (
         item = {
             "title": "Home",
             "href": "../home",
-            "id": "123",
+            "_id": "123",
             "icon": "fa fa-home"
         },
         active = 'Explore'
     }
 ) => {
     return (
-        <Link key={item.id} className={`list-group-item ${IsActive(item.title, active)}`} to={item.href}>
+        <Link key={item._id} className={`list-group-item ${IsActive(item.title, active)}`} to={item.href}>
             <div className="row">
                 <div className="col-3">
                     <span className={item.icon}></span>
