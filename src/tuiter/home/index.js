@@ -1,15 +1,13 @@
-import HomeComponentItem from "./HomeComponentItem";
-import home from "./home.json";
-import React, { useState } from 'react';
+import React from "react";
+import TuitList from "../tuits/tuit-list";
+import WhatsHappening from "./whats-happening";
 
 const HomeComponent = () => {
-    const [id, setID] = useState(0);
     return (
-        <ul className="list-group">
-            {home.map((item) => (
-                <HomeComponentItem key={item._id} post={item} />
-            ))}
-        </ul>
+        <div>
+            <WhatsHappening />
+            <TuitList />
+        </div>
     );
 }
 
