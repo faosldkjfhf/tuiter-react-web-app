@@ -43,7 +43,7 @@
     },
     {
         "title": "Profile",
-        "href": "../profile.html",
+        "href": "../profile",
         "_id": "890",
         "icon": "fa-regular fa-user"
     },

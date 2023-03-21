@@ -1,0 +1,27 @@
+.no-text-decor {
+    text-decoration: none;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.font-size-50 {
+    font-size: 16px;
+}
+
+.side-border {
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: rgb(225 232 237);
+}
+
+.profile-pic {
+    position: absolute;
+    top: 250px;
+}
+
+.btn-outline-secondary {
+    font-weight: bold !important;
+}
