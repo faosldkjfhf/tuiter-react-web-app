@@ -10,6 +10,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
 import ProfileComponent from "./profile";
 import userReducer from "./reducers/user-reducer";
+import EditProfileComponent from "./edit-profile";
 
 const store = configureStore(
     {
@@ -27,6 +28,7 @@ function Tuiter() {
                         <Route path="/home" element={<NavigationSidebar active='Home' />} />
                         <Route path="/explore" element={<NavigationSidebar active='Explore' />} />
                         <Route path="/profile" element={<NavigationSidebar active='Profile' />} />
+                        <Route path="/edit-profile" element={<NavigationSidebar active='Profile' />} />
                     </Routes>
                 </div>
                 <div className="col-10 col-md-10 col-lg-7 col-xl-6" style={{ "position": "relative" }}>
@@ -34,7 +36,8 @@ function Tuiter() {
                         <Route index element={<HomeComponent />} />
                         <Route path="/home" element={<HomeComponent />} />
                         <Route path="/explore" element={<ExploreComponent />} />
-                        <Route path="/profile" element={<ProfileComponent />} />
+                        <Route path="/profile/*" element={<ProfileComponent />} />
+                        <Route path="/edit-profile" element={<EditProfileComponent />} />
                     </Routes>
                 </div>
                 <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">

@@ -1,0 +1,16 @@
+.no-text-decor {
+    text-decoration: none;
+}
+
+.border {
+    border-style: solid;
+}
+
+.margin-top-big {
+    margin-top: 125px !important;
+}
+
+.big-text-box {
+    height: auto !important;
+    width: 100% !important;
+}
