@@ -3,6 +3,10 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import "./index.css";
 
+function hasLastName(name) {
+    return typeof name === 'undefined' ? "" : name;
+}
+
 const ProfileComponent = () => {
     const user = useSelector(state => state.user)
     console.log(user);
@@ -13,7 +17,7 @@ const ProfileComponent = () => {
                     <Link to="/tuiter/home"><i className="text-black fa-solid fa-arrow-left"></i></Link>
                 </div>
                 <div className="col-11">
-                    <div><span className="text-bold"> {user.firstName} {user.lastName} </span></div>
+                    <div><span className="text-bold"> {user.firstName} {hasLastName(user.lastName)} </span></div>
                     <div> {user.numTuits} Tuits </div>
                 </div>
                 <img className="p-0 mt-2 img-fluid" src={`/images/${user.bannerPicture}`} />
@@ -26,7 +30,7 @@ const ProfileComponent = () => {
                     </div>
                 </div>
                 <div className="margin-top-big row">
-                    <div className="text-bold font-size-50">{user.firstName} {user.lastName}</div>
+                    <div className="text-bold font-size-50">{`${user.firstName} ${hasLastName(user.lastName)}`}</div>
                     <div className="text-secondary">@{user.handle}</div>
                     <div className="mt-3">{user.bio}</div>
 
@@ -36,7 +40,7 @@ const ProfileComponent = () => {
                         <i className="fa-solid fa-location-dot"></i>
                         <span> {user.location}</span>
                     </span>
-                    <span className="col-3">
+                    <span className="col-4">
                         <i className="fa-solid fa-cake-candles"></i>
                         <span> Born {user.dateOfBirth}</span>
                     </span>
