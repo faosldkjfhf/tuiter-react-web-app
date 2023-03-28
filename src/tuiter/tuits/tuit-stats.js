@@ -8,7 +8,7 @@ function isLiked(liked) {
 }
 
 function changeLikedValue(stats) {
-    return stats.liked ? stats.likes + 1 : stats.likes - 1;
+    return stats.liked ? stats.likes - 1 : stats.likes + 1;
 }
 
 const TuitStats = ({ stats }) => {
