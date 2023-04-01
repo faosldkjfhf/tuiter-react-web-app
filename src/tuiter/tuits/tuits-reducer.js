@@ -52,9 +52,6 @@ const tuitsSlice = createSlice({
                     ...payload
                 }
             }
-
-
-
     }
 });
 
